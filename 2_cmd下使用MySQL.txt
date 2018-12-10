@@ -56,3 +56,14 @@ mysql> CREATE DATABASE [数据库名];
 删除数据库
 
 drop database [数据库名];
+
+
+
+
+清空表
+
+truncate table [表名];
+
+
+
+
