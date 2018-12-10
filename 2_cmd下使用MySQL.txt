@@ -40,4 +40,19 @@ mysql> show tables;
 
 
 
+创建数据库：
 
+mysql> CREATE DATABASE [数据库名];
+
+(创建表)
+
+(mysql> alter table [表名] convert to character set utf8mb4;)  # 更改表的字符集
+
+(mysql> SHOW CREATE TABLE [表名];)  # 查看表的字符集
+
+
+
+
+删除数据库
+
+drop database [数据库名];
