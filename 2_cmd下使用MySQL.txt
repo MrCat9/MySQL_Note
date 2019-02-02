@@ -67,3 +67,6 @@ truncate table [表名];
 
 
 
+查看表的行数
+
+SELECT COUNT(*) FROM [表名];
