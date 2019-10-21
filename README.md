@@ -22,5 +22,7 @@ https://www.cnblogs.com/snoopys/p/6129068.html
 
 https://www.cnblogs.com/owenma/p/7073297.html
 
-6_MySQL非空的表
-
+6_查找指定数据库下非空的表
+```
+select * from information_schema.tables where TABLE_SCHEMA='要查询的数据库' and table_rows>0;
+```
