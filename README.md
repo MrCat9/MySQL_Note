@@ -18,6 +18,4 @@ https://www.cnblogs.com/snoopys/p/6129068.html
 ```
 
 ## Linux中Mysql root用户看不到mysql库问题解决方式
-```
 https://www.cnblogs.com/owenma/p/7073297.html
-```
