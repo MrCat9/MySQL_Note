@@ -1,10 +1,12 @@
 # MySQL_note
 
-## 1_MySQL数据库储存位置
+## 目录
 
-## 2_cmd下使用MySQL
+1_MySQL数据库储存位置
 
-## 3_报错 (pymysql.err.InternalError) (1366, "Incorrect string value: '\\xE7\\x9C\\x81\\xE6\\x9C\\xAC...' for column 'area' at row 1")
+2_cmd下使用MySQL
+
+3_报错 (pymysql.err.InternalError) (1366, "Incorrect string value: '\\xE7\\x9C\\x81\\xE6\\x9C\\xAC...' for column 'area' at row 1")
 ```
 解决方法：
 1. mysql -u root -p
@@ -12,10 +14,13 @@
 3. alter table [表名] convert to character set utf8mb4;
 ```
 
-## Linux下设置MySQL的密码
-```
-https://www.cnblogs.com/snoopys/p/6129068.html
-```
+4_Linux下设置MySQL的密码
 
-## Linux中Mysql root用户看不到mysql库问题解决方式
+https://www.cnblogs.com/snoopys/p/6129068.html
+
+5_Linux中Mysql root用户看不到mysql库问题解决方式
+
 https://www.cnblogs.com/owenma/p/7073297.html
+
+6_MySQL非空的表
+
