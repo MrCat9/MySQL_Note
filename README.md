@@ -27,4 +27,6 @@ https://www.cnblogs.com/owenma/p/7073297.html
 select * from information_schema.tables where TABLE_SCHEMA='要查询的数据库' and table_rows>0;
 ```
 
-[7_MySQL批量修改数据表和数据表中所有字段的字符集](https://blog.csdn.net/vfsdfdsf/article/details/90484891)
+7_MySQL批量修改数据表和数据表中所有字段的字符集
+
+https://blog.csdn.net/vfsdfdsf/article/details/90484891
