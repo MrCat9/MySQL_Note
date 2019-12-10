@@ -30,3 +30,10 @@ select * from information_schema.tables where TABLE_SCHEMA='要查询的数据�
 7_MySQL批量修改数据表和数据表中所有字段的字符集
 
 https://blog.csdn.net/vfsdfdsf/article/details/90484891
+
+8_通过生日计算年龄
+```
+SELECT TIMESTAMPDIFF(YEAR, '2000-12-22', CURDATE());
+-- 18
+```
+
