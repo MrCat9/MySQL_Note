@@ -37,3 +37,13 @@ SELECT TIMESTAMPDIFF(YEAR, '2000-12-22', CURDATE());
 -- 18
 ```
 
+9_使用查询(select)结果插入(insert)
+
+MySql将查询结果插入到另外一张表 https://www.cnblogs.com/qlqwjy/p/8351655.html
+
+10_使用查询(select)结果更新(update)
+
+MySql通过查询结果集更新数据 https://segmentfault.com/a/1190000018568782
+mysql update select 从查询结果中更新数据 https://www.cnblogs.com/deepalley/p/11018918.html
+mysql将查询结果更新到表中 https://blog.csdn.net/qq_41563799/article/details/90217753
+
