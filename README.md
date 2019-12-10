@@ -32,7 +32,7 @@ select * from information_schema.tables where TABLE_SCHEMA='要查询的数据�
 https://blog.csdn.net/vfsdfdsf/article/details/90484891
 
 8_通过生日计算年龄
-```
+```sql
 SELECT TIMESTAMPDIFF(YEAR, '2000-12-22', CURDATE());
 -- 18
 ```
