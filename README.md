@@ -56,3 +56,11 @@ mysql的时间条件筛选 https://blog.csdn.net/Yuan52007298/article/details/81
 #### 12_报错"Got a packet bigger than 'max_allowed_packet' bytes"
 
 解决mysql执行SQL文件，报错："Got a packet bigger than 'max_allowed_packet' bytes" https://blog.csdn.net/github_39325328/article/details/79549756
+
+#### 13_shell脚本定时备份MySQL数据库
+
+MySQL数据库定时备份的实现方法 https://www.jb51.net/article/158812.htm
+
+实战-MySQL定时全量备份（1） https://blog.csdn.net/zone_/article/details/81293131
+
+
