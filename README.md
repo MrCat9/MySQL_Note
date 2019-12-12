@@ -53,4 +53,6 @@ mysql将查询结果更新到表中 https://blog.csdn.net/qq_41563799/article/de
 
 mysql的时间条件筛选 https://blog.csdn.net/Yuan52007298/article/details/81584716
 
+12_报错"Got a packet bigger than 'max_allowed_packet' bytes"
 
+解决mysql执行SQL文件，报错："Got a packet bigger than 'max_allowed_packet' bytes" https://blog.csdn.net/github_39325328/article/details/79549756
