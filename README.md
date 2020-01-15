@@ -69,3 +69,24 @@ MySQL数据库定时备份的实现方法 https://www.jb51.net/article/158812.ht
 
 https://www.jianshu.com/p/1b17442edd38
 
+#### 16_MYSQL导出表结构（含列名、数据类型、字段备注注释）导出成Excel
+
+https://blog.csdn.net/liu_yulong/article/details/92767596
+
+```sql
+SELECT
+	COLUMN_NAME 列名,
+	COLUMN_TYPE 数据类型,
+	DATA_TYPE 字段类型,
+	CHARACTER_MAXIMUM_LENGTH 长度,
+	IS_NULLABLE 是否为空,
+	COLUMN_DEFAULT 默认值,
+	COLUMN_COMMENT 备注 
+FROM
+	information_schema.COLUMNS 
+WHERE
+	TABLE_NAME = 'my_table_name' -- 表名
+	
+	AND TABLE_SCHEMA = 'my_db_name' -- 数据库名
+```
+
