@@ -90,3 +90,10 @@ WHERE
 	AND TABLE_SCHEMA = 'my_db_name' -- 数据库名
 ```
 
+#### 17_报错"ERROR 1215 (HY000) at line 1811: Cannot add foreign key constraint"
+
+mysql执行带外键的sql文件时出现mysql ERROR 1215 (HY000): Cannot add foreign key constraint的解决 https://www.cnblogs.com/liushui-sky/p/8830936.html
+
+#### 18_Navicat设置字段的唯一性（UNIQUE）
+
+Navicat Premium怎么设置字段的唯一性（UNIQUE） https://blog.csdn.net/Song_JiangTao/article/details/82192189
