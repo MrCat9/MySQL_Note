@@ -97,3 +97,33 @@ mysql执行带外键的sql文件时出现mysql ERROR 1215 (HY000): Cannot add fo
 #### 18_Navicat设置字段的唯一性（UNIQUE）
 
 Navicat Premium怎么设置字段的唯一性（UNIQUE） https://blog.csdn.net/Song_JiangTao/article/details/82192189
+
+#### 19_报错"Index column size too large. The maximum column size is 767 bytes."
+
+https://blog.51cto.com/zhaowl/2324758
+
+https://blog.csdn.net/hanyunpiaoyu/article/details/82377897
+
+#### 20_报错"Error Code: 2006 - MySQL server has gone away"
+
+```
+mysql> SET GLOBAL max_allowed_packet=1024 * 1024 * 256;
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> show variables like 'max_allowed_packet';
++--------------------+-----------+
+| Variable_name      | Value     |
++--------------------+-----------+
+| max_allowed_packet | 268435456 |
++--------------------+-----------+
+1 row in set (0.09 sec)
+```
+
+```
+256M
+```
+
+https://blog.csdn.net/sunny05296/article/details/80446944
+
+https://blog.csdn.net/remzhang/article/details/88883440
+
