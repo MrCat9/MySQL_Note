@@ -104,10 +104,14 @@ https://blog.51cto.com/zhaowl/2324758
 
 https://blog.csdn.net/hanyunpiaoyu/article/details/82377897
 
-#### 20_报错"Error Code: 2006 - MySQL server has gone away"
+#### 20_设置max_allowed_packet为256M
 
 ```
-设置成 256M
+可解决的报错1：
+Error Code: 2006 - MySQL server has gone away
+
+可解决的报错2：
+Variable 'time_zone' can't be set to the value of 'NULL'
 ```
 
 ```
@@ -126,4 +130,6 @@ mysql> show variables like 'max_allowed_packet';
 https://blog.csdn.net/sunny05296/article/details/80446944
 
 https://blog.csdn.net/remzhang/article/details/88883440
+
+http://www.voidcn.com/article/p-rpuiipug-bsd.html
 
