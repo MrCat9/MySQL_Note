@@ -14,9 +14,15 @@
 3. alter table [表名] convert to character set utf8mb4;
 ```
 
-#### 4_Linux下设置MySQL的密码
+#### 4_MySQL用户管理
 
-https://www.cnblogs.com/snoopys/p/6129068.html
+MySQL用户管理：添加用户、授权、删除用户 https://www.cnblogs.com/pejsidney/p/8945934.html
+
+MySql用户访问权限的设置 https://www.jianshu.com/p/1b17442edd38
+
+Mysql_修改root用户密码 https://www.cnblogs.com/wodexk/p/10674636.html
+
+MySQL设置root密码 https://www.cnblogs.com/snoopys/p/6129068.html
 
 #### 5_Linux中Mysql root用户看不到mysql库问题解决方式
 
@@ -65,9 +71,9 @@ MySQL数据库定时备份的实现方法 https://www.jb51.net/article/158812.ht
 
 #### 14_MySQL定时任务
 
-#### 15_MySql用户访问权限的设置
+#### 15_
 
-https://www.jianshu.com/p/1b17442edd38
+
 
 #### 16_MYSQL导出表结构（含列名、数据类型、字段备注注释）导出成Excel
 
