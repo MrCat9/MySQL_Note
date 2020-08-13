@@ -124,6 +124,8 @@ Variable 'time_zone' can't be set to the value of 'NULL'
 mysql> SET GLOBAL max_allowed_packet=1024 * 1024 * 256;
 Query OK, 0 rows affected (0.07 sec)
 
+mysql> exit;
+
 mysql> show variables like 'max_allowed_packet';
 +--------------------+-----------+
 | Variable_name      | Value     |
