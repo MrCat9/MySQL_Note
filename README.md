@@ -141,3 +141,8 @@ https://blog.csdn.net/remzhang/article/details/88883440
 
 http://www.voidcn.com/article/p-rpuiipug-bsd.html
 
+#### 21_限制用户登录频率防暴力破解`connection_control.so`
+
+[MySQL会话控制限制登录次数](https://www.cnblogs.com/pettyfer/p/12263732.html)
+
+[mysql限制登录次数以及重试时间](https://www.cnblogs.com/hantwo-cn/p/13398328.html)
