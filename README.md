@@ -147,3 +147,34 @@ http://www.voidcn.com/article/p-rpuiipug-bsd.html
 [MySQL会话控制限制登录次数](https://www.cnblogs.com/pettyfer/p/12263732.html)
 
 [mysql限制登录次数以及重试时间](https://www.cnblogs.com/hantwo-cn/p/13398328.html)
+
+#### 22_报错"Error updating database. Cause: java.sql.SQLSyntaxErrorException: The size of BLOB/TEXT data inserted in one transaction is greater than 10% of redo log size. Increase the redo log size using innodb_log_file_size."
+
+https://itdiandi.net/view/572
+
+https://blog.csdn.net/jian876601394/article/details/104823636
+
+```
+主要和 innodb_log_file_size, max_allowed_packet 两参数有关
+mysql> show variables like "%innodb_log_file_size%";
+mysql> show variables like "%max_allowed_packet%";
+```
+
+#### 23_MySQL服务命令
+
+```
+# 指定配置文件，启动MySQL
+[root@myserver ~]$ mysqld --defaults-file=/usr/my.cnf --user=root
+
+# 指定配置文件，以服务形式启动MySQL
+[root@myserver ~]$ service mysql start --defaults-file=/usr/my.cnf --user=root
+# 查看MySQL状态
+[root@myserver ~]$ service mysql status
+# 停止MySQL
+[root@myserver ~]$ service mysql stop
+```
+
+#### 24_MySQL配置文件详解
+
+[MySQL指定mysqld启动时所加载的配置文件](https://www.cnblogs.com/jeffen/p/5998083.html)
+
