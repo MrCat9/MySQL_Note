@@ -178,3 +178,10 @@ mysql> show variables like "%max_allowed_packet%";
 
 [MySQL指定mysqld启动时所加载的配置文件](https://www.cnblogs.com/jeffen/p/5998083.html)
 
+#### 25_B树、B+树、B*树
+
+[B树、B+树详解](https://www.cnblogs.com/lianzhilei/p/11250589.html)
+
+[彻底搞懂系列B-树、B+树、B-树、B*树](https://blog.csdn.net/chai471793/article/details/99563704)
+
+[漫画：什么是B+树？](https://zhuanlan.zhihu.com/p/54102723)
