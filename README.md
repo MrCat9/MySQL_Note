@@ -178,7 +178,22 @@ mysql> show variables like "%max_allowed_packet%";
 
 [MySQL指定mysqld启动时所加载的配置文件](https://www.cnblogs.com/jeffen/p/5998083.html)
 
-#### 25_B树、B+树、B*树
+#### 25_二叉树前序遍历、中序遍历、后序遍历、层序遍历
+
+| 遍历方式        | 实现              | 应用                                   |
+| --------------- | ----------------- | -------------------------------------- |
+| 前序遍历（DLR） | 递归/栈（非递归） | 爬虫深度优先遍历                       |
+| 中序遍历（LDR） | 递归/栈（非递归） | 中序遍历BST得到BST所有节点值的顺序输出 |
+| 后序遍历（LRD） | 递归/栈（非递归） |                                        |
+| 层序遍历        | 队列（先进先出）  | 爬虫广度优先遍历                       |
+
+[二叉树前序遍历、中序遍历、后序遍历、层序遍历的直观理解](https://blog.csdn.net/u013834525/article/details/80421684)
+
+[二叉树、前序遍历、中序遍历、后序遍历](https://www.cnblogs.com/lanhaicode/p/10358736.html)
+
+[树的前序遍历、中序遍历、后序遍历详解](https://www.cnblogs.com/jpfss/p/11141956.html)
+
+#### 26_B树、B+树、B*树
 
 [B树、B+树详解](https://www.cnblogs.com/lianzhilei/p/11250589.html)
 
