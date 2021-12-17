@@ -193,7 +193,17 @@ mysql> show variables like "%max_allowed_packet%";
 
 [树的前序遍历、中序遍历、后序遍历详解](https://www.cnblogs.com/jpfss/p/11141956.html)
 
-#### 26_B树、B+树、B*树
+[二叉树的Python实现](https://www.jianshu.com/p/9503238394df)
+
+#### 26_二叉树、红黑树
+
+[漫画：红黑树杀人事件始末](https://mp.weixin.qq.com/s/r6foXjNHmU0l_fzrMqxG7Q)
+
+> 二叉树概念、查找、插入、删除，
+>
+> 红黑树概念、旋转操作（左旋、右旋）、插入、删除、插入修正操作及原理、删除修正操作及原理。
+
+#### 27_B树、B+树、B*树
 
 [B树、B+树详解](https://www.cnblogs.com/lianzhilei/p/11250589.html)
 
