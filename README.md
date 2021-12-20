@@ -210,3 +210,7 @@ mysql> show variables like "%max_allowed_packet%";
 [彻底搞懂系列B-树、B+树、B-树、B*树](https://blog.csdn.net/chai471793/article/details/99563704)
 
 [漫画：什么是B+树？](https://zhuanlan.zhihu.com/p/54102723)
+
+#### 28_[MySQL索引类型 ](https://www.cnblogs.com/luyucheng/p/6289714.html)
+
+#### 29_[MySQL索引原理以及查询优化](https://www.cnblogs.com/bypp/p/7755307.html)
