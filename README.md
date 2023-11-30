@@ -236,6 +236,40 @@
     (10) ORDER BY
     (11) LIMIT
     ```
+   
+    ```sql
+    mysql> -- 求每个部门的平均工资,以及剔除薪资低于1000的人员之后的平均工资
+    mysql> -- 2个临时表的定时语句通过with封装成子查询了，程序可读性增强
+    mysql> with tmp1 as
+        ->  (select e1.deptno, round(avg(ifnull(e1.sal, 0)), 2) avg_sal
+        ->    from emp e1
+        ->    group by e1.deptno),
+        -> tmp2 as
+        ->  (select e1.deptno, round(avg(ifnull(e1.sal, 0)), 2) avg_sal
+        ->    from emp e1
+        ->    where e1.sal > 1000
+        ->    group by e1.deptno)
+        -> select d.deptno, tmp1.avg_sal avg_sal1, tmp2.avg_sal avg_sal2
+        ->   from dept d
+        ->   left join tmp1
+        ->     on d.deptno = tmp1.deptno
+        ->   left join tmp2
+        ->     on d.deptno = tmp2.deptno;
+    +--------+----------+----------+
+    | deptno | avg_sal1 | avg_sal2 |
+    +--------+----------+----------+
+    |     10 |  2916.67 |  2916.67 |
+    |     20 |  2175.00 |  2518.75 |
+    |     30 |  1566.67 |  1690.00 |
+    |     40 |     NULL |     NULL |
+    +--------+----------+----------+
+    4 rows in set (0.00 sec)
+    ```
+
+    ```sql
+    mysql> -- 查询至少两门课程及格的学生学号
+    mysql> select s_id from sc group by s_id having sum(score>=60)>=2
+    ```
 
 30. 
 
